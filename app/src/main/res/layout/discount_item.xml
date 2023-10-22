@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="@dimen/_5sdp"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="@dimen/_100sdp"
+        android:layout_height="@dimen/_90sdp"
+        android:src="@color/black"
+        android:id="@+id/WorkshopImage"/>
+
+    <TextView
+        android:id="@+id/WorkshopName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/WorkshopImage"
+        android:gravity="center_vertical"
+        android:padding="@dimen/_1sdp"
+        android:text="Workshop Name"
+        android:layout_margin="@dimen/_5sdp"
+        android:textSize="@dimen/_13sdp"
+        android:textColor="@color/white" />
+
+    <TextView
+        android:id="@+id/DiscountText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_1sdp"
+        android:text="Workshop Discription Text"
+        android:layout_toRightOf="@+id/WorkshopImage"
+        android:layout_below="@+id/WorkshopName"
+        android:gravity="center_vertical"
+        android:textSize="@dimen/_12sdp"
+        android:textColor="@color/white"
+        android:layout_margin="@dimen/_5sdp"
+        />
+
+
+</RelativeLayout>

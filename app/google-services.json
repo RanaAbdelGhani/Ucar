@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "665938763886",
+    "project_id": "ucar-1999",
+    "storage_bucket": "ucar-1999.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:665938763886:android:3ac24beafb26c4087f867f",
+        "android_client_info": {
+          "package_name": "com.elephant.ucar"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "665938763886-r0vufe04p5ungm886ticra1m8kjseaht.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCTxcXXMEzWcFX-VatDx-WuBmsbkERLZZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "665938763886-r0vufe04p5ungm886ticra1m8kjseaht.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

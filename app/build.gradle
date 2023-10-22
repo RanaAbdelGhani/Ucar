@@ -1,0 +1,75 @@
+apply plugin: 'com.android.application'
+apply plugin: 'com.google.gms.google-services'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        applicationId "com.elephant.ucar"
+        minSdkVersion 18
+        targetSdkVersion 30
+        versionCode 5
+        versionName "1.0.2"
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_1_8
+        targetCompatibility JavaVersion.VERSION_1_8
+    }
+    namespace 'com.elephant.ucar'
+
+}
+
+dependencies {
+    implementation fileTree(dir: "libs", include: ["*.jar"])
+    implementation 'androidx.appcompat:appcompat:1.3.1'
+    implementation 'androidx.constraintlayout:constraintlayout:2.1.1'
+
+    //google
+    implementation 'com.google.android.gms:play-services-auth:19.2.0'
+
+    //recycler view
+    implementation 'androidx.recyclerview:recyclerview:1.2.1'
+
+    //dimens
+    implementation 'com.intuit.sdp:sdp-android:1.0.6'
+
+    //gson
+    implementation 'com.google.code.gson:gson:2.8.5'
+
+    //Api AFN
+    implementation 'com.amitshekhar.android:android-networking:1.0.2'
+
+    //Images
+    implementation 'com.github.bumptech.glide:glide:4.6.1'
+
+    //FireBase
+    implementation platform('com.google.firebase:firebase-bom:28.2.1')
+    implementation 'com.google.firebase:firebase-analytics'
+
+    //zoom
+    implementation 'com.github.chrisbanes:PhotoView:2.3.0'
+
+
+    implementation 'com.android.support:support-annotations:28.0.0'
+
+    implementation 'androidx.navigation:navigation-ui:2.3.5'
+    implementation 'com.google.firebase:firebase-messaging:22.0.0'
+
+    implementation 'com.davemorrissey.labs:subsampling-scale-image-view:3.10.0'
+    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
+    implementation 'com.google.android.material:material:1.4.0'
+
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'androidx.test.ext:junit:1.1.3'
+    androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
+
+}

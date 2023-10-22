@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Ucar</string>
+    <!-- TODO: Remove or change this placeholder text -->
+
+    <string name="first_fragment_label">First Fragment</string>
+
+    <string name="second_fragment_label">Second Fragment</string>
+
+    <string name="next">Next</string>
+
+    <string name="previous">Previous</string>
+
+    <string name="nav_open">Open</string>
+
+    <string name="nav_close">Close</string>
+
+    <string name="AboutUsEn">About Us
+        UCAR is an App provides you with the modernest models,
+        prices and features for more than 40 international car brands,
+        Through UCAR you can figure prices of all spare parts for your car.
+        Also provides you with the current prices of all (new and used) car brands,
+        UCAR offers a collection of the best specialized workshops for every car.
+        UCAR - Knows What YOUR Car Wants</string>
+
+    <string name="AboutUsAr">
+        يوكار تطبيق يساعدك على معرفة أحدث الموديلات والاسعار
+        والمواصفات لأكثر من40 ماركة للسيارات العالمية.
+        من خلال يو كار يمكنك معرفة اسعار قطع الغيار الخاصة بسيارتك، ويتيح لك معرفة اسعار السيارات
+        المتداولة لجميع ماركات السيارات العالمية الجديدة والمستعملة،
+        كما يتيح لك معرفة مجموعة من افضل الورش المتخصصة لكل انواع السيارات.
+        يعرف مصلحة عربيتك  - يوكار</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

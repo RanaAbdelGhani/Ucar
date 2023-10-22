@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:id="@+id/PartsScroll"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:visibility="visible"
+    tools:context=".Fragments.CarPartsFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/NoPartsText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="No Parts available"
+            android:visibility="gone"
+            android:layout_marginTop="@dimen/_150sdp"
+            android:layout_centerInParent="true"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_22sdp"
+            android:textStyle="bold"/>
+
+        <LinearLayout
+            android:id="@+id/textlay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+
+        <TextView
+            android:id="@+id/PText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/grey"
+            android:drawableLeft="@drawable/down_arrow"
+            android:enabled="false"
+            android:paddingLeft="@dimen/_5sdp"
+            android:text="maintenance"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.02"
+                android:background="@color/black"/>
+
+        <TextView
+            android:id="@+id/PartsText"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:background="@color/lightgrey"
+            android:layout_below="@+id/PList"
+            android:drawableLeft="@drawable/car_list_narrow"
+            android:paddingLeft="@dimen/_10sdp"
+            android:text="Parts"
+            android:textColor="@color/white"
+            android:textSize="@dimen/_17sdp" />
+
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/PList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/PText"
+            android:dividerHeight="1dp"
+            android:divider="@color/grey"
+            android:visibility="visible" />
+
+        <ListView
+            android:id="@+id/PartsList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:dividerHeight="1dp"
+            android:divider="@color/grey"
+            android:layout_below="@id/PartsText"
+            android:visibility="gone"/>
+
+        </LinearLayout>
+</ScrollView>

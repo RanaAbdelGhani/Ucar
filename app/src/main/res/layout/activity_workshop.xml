@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activities.WorkshopActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+
+        <androidx.viewpager.widget.ViewPager
+            android:id="@+id/WorkshopDetailsSlider"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/_150sdp"
+            android:layout_marginBottom="@dimen/_5sdp"
+            />
+
+    <TextView
+        android:id="@+id/WorkshopTitle"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/_40sdp"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        android:textSize="@dimen/_15sdp"
+        />
+
+        <TextView
+        android:id="@+id/WorkshopDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        />
+
+        <TextView
+        android:id="@+id/OfferDescriptionText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+        android:textColor="@color/white"
+            android:text="The Offer"
+            android:visibility="gone"
+        android:textSize="@dimen/_16sdp"
+        />
+
+         <TextView
+        android:id="@+id/OfferDescription"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="@dimen/_5sdp"
+             android:visibility="gone"
+        android:textColor="@color/white"
+        android:textSize="@dimen/_12sdp"
+        />
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="@dimen/_22sdp"
+        android:gravity="bottom"
+        android:padding="@dimen/_10sdp"
+        >
+        <ImageView
+            android:id="@+id/CallWorkshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:src="@drawable/call_icon"
+            android:visibility="gone"
+            />
+
+        <ImageView
+            android:id="@+id/LocationWorkshop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/_4sdp"
+            android:src="@drawable/location_icon"
+            android:visibility="gone"
+            />
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

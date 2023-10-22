@@ -1,0 +1,85 @@
+<project version="4">
+  <component name="BuildAttributionWarningsFilter">
+    <option name="noGCSettingWarning" value="true" />
+  </component>
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/projects/Ucar/app/src/main/res/drawable/car_list_narrow.xml" value="0.26615384615384613" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/drawable/ic_baseline_close_24.xml" value="0.26615384615384613" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/drawable/left_chevron.xml" value="0.26615384615384613" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/drawable/right_chevron.xml" value="0.26615384615384613" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/Parts_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_abou_us.xml" value="0.12360688956433637" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_car.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_contact_us.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_main.xml" value="0.264" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_splash.xml" value="0.176" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_workshop.xml" value="0.2" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/activity_zooming.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/car_details_slider_layout.xml" value="0.10400000000000001" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/cars_list_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/details_item.xml" value="0.12360688956433637" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/dialog_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/discount_item.xml" value="0.10869565217391304" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/fix_list_item.xml" value="0.2" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/fragment_car_details.xml" value="0.264" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/fragment_car_parts.xml" value="0.264" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/fragment_cars.xml" value="0.12360688956433637" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/fragment_fix.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/fragment_zooming.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/item_resycler_listview_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/list_group.xml" value="0.264" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/nav_header.xml" value="0.13177083333333334" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/p_item.xml" value="0.2" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/parts_item.xml" value="0.24003623188405798" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/parts_list_group.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/parts_list_item.xml" value="0.176" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/workshop_details_slider_layout.xml" value="0.13177083333333334" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/layout/zooming_slider_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.26481481481481484" />
+        <entry key="..\:/projects/Ucar/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.26481481481481484" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.0/app/src/main/res/layout/activity_zooming.xml" value="0.12360688956433637" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.0/app/src/main/res/layout/zooming_slider_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/drawable/share_button.xml" value="0.2703125" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/drawable/zoom_icon.xml" value="0.2703125" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_abou_us.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_car.xml" value="0.1" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_company_details.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_contact_us.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_discount.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_main.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_splash.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/activity_zooming.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/car_details_slider_layout.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/cars_list_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/custom_dialog.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/details_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/dialog_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/discount_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/fix_list_item.xml" value="0.25226449275362317" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/fragment_car_details.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/fragment_car_parts.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/fragment_cars.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/fragment_fix.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/item_resycler_listview_home.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/list_group.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/main.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/maintenance.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/nav_header.xml" value="0.10400000000000001" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/p_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/parts_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/workshop_details_slider_layout.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/layout/zooming_slider_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/projects/Ucar_master/Ucar 1.0.2/app/src/main/res/menu/menu.xml" value="0.25416666666666665" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_19" project-jdk-name="JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
